@@ -1,0 +1,17 @@
+#player {
+    text-align: center;
+}
+
+button {
+    font-family: 'Sigmar', cursive;
+    font-size: 45px;
+    background-color: #394867;
+    border-radius: 100px;
+    padding: 3px 15px 3px 15px;
+    border-width: 0px;
+    color: #F1F6F9;
+}
+
+body {
+    background-color: #212A3E;
+}
