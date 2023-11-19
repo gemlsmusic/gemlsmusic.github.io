@@ -1,17 +1,59 @@
-#player {
-    text-align: center;
+body {
+	background-color: #212121;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	text-align: center;
+}
+
+.title, .duration {
+	font-size: 7vw;
+	width: 100%;
+	color: white;
+}
+
+svg {
+	width: 10vw;
+	height: 10vw;
 }
 
 button {
-    font-family: 'Sigmar', cursive;
-    font-size: 45px;
-    background-color: #394867;
-    border-radius: 100px;
-    padding: 3px 15px 3px 15px;
-    border-width: 0px;
-    color: #F1F6F9;
+	background-color: #212121;
 }
 
-body {
-    background-color: #212A3E;
+audio {
+	display: none;
+}
+
+#pause {
+	display: none;
+}
+
+.justify-content-center {
+	align-items: center;
+}
+
+#loading_track {
+	display: none;
+	--bs-spinner-border-width: 10px;
+	width: 7vw;
+	height: 7vw;
+}
+
+#pause_svg {
+	display: none;
+}
+
+.progress {
+	height: 5vw;
+	background-color: #343A40;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1000px;
 }
